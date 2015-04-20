@@ -17,7 +17,7 @@ You can see Live Demo of CVSS2.js library [here](https://bit-sentinel.com/common
 
 ## How to Use CVSS2.js on Your Website?
 * Clone this repository.
-* Include all </head> files from demo.html in your page.
+* Include all </head> files from demo/index.html in your page.
 * Add HTML placeholder for your CVSS 2.0 Calculator. Example:
 ```html
 <div id="cvss2table"> </div>

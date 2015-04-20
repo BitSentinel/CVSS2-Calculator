@@ -1,0 +1,150 @@
+#cvss2table {
+  font-size:14px;
+}
+
+#cvss2table label {
+	font-size:inherit;
+	font-weight: inherit;
+}
+#cvss2table label.title {
+	cursor:pointer;
+	font-size:20px;
+}
+#cvss2table label.subtitle {
+	font-weight: bold;
+}
+.cvss2-options label {
+	margin:5px 2px;
+}
+.cvss2-enviromental-inner, .cvss2-temporal-inner, .cvss2-base-inner {
+	border: 1px solid #ddd;
+  padding:5px;
+}
+
+#cvss2table #update_scores {
+	margin-right:10px;
+}
+
+/* Charts Containers */
+
+#cvss-charts-container {
+    display: inline-block;
+}
+
+#cvss-base-scores-chart {
+    width:300px;
+    height:200px;
+    float:left;
+}
+
+#cvss-temporal-score-chart,
+#cvss-overall-score-chart {
+    width:105px;
+    height:200px;
+    float:left;
+}
+
+#cvss-environmental-score-chart {
+    width: 300px;
+    height:200px;
+    float:left;
+}
+
+
+/* Text Score Container */
+
+#cvss-text-score-container {
+    display: table;
+    /*float: left;*/
+}
+
+#cvss-text-score-container .score-row,
+#cvss-text-score-container .equation-row {
+    display: table-row;
+}
+
+#cvss-text-score-container .equation-row {
+    text-align: center;
+}
+
+#cvss-text-score-container .score-row .score-cell {
+    display: table-cell;
+    color: DimGray;
+    font-size: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 6px;
+}
+
+.major-score {
+    font-weight: bold;
+}
+#cvss2table .vector_url {
+	font-weight: bold;
+	font-size: 25px;
+        margin: 15px 0px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.btn-primary {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  padding: 5px 8px 5px 8px;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.btn-default {
+  background: #fff;
+  background-image: -webkit-linear-gradient(top, #fff, #e0e0e0);
+  background-image: -moz-linear-gradient(top, #fff, #e0e0e0);
+  background-image: -ms-linear-gradient(top, #fff, #e0e0e0);
+  background-image: -o-linear-gradient(top, #fff, #e0e0e0);
+  background-image: linear-gradient(to bottom, #fff, #e0e0e0);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #000;
+  padding: 5px 8px 5px 8px;
+  border: solid #adadad 1px;
+  text-decoration: none;
+}
+
+.btn-default:hover {
+  background: #e0e0e0;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none!important;
+  visibility: hidden!important;
+}
+
+.cvss2-options { margin: 15px; }
+
+.vector_url {
+ text-decoration:underline;
+}
