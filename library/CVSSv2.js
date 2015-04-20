@@ -1178,8 +1178,8 @@ var CVSS2 = {};
 
 
 		if(loadbuttons) {
-			$('<button class="button fusion-button button-default default button-round button-large large" id="update_scores">Update Scores</button> ').appendTo(hook);
-			$('<button class="button fusion-button button-round button-flat button-large large" id="reset_scores">Reset Scores</button>').appendTo(hook);
+			$('<button class="btn-primary large" id="update_scores">Update Scores</button> ').appendTo(hook);
+			$('<button class="btn-primary large" id="reset_scores">Reset Scores</button>').appendTo(hook);
 		}		
 
 		//init tooltips

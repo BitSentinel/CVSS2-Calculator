@@ -90,6 +90,12 @@
   margin: 20px 0;
 }
 
+.large {
+  padding: 10px 12px;
+  font-size:18px;
+  border:1px solid #ddd;
+}
+
 .btn-primary {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
